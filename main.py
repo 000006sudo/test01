@@ -1,6 +1,7 @@
 import streamlit as st
 
 def on_reload():
+    st.sidebar.image('AEGIS_LOGO.png', width=240)
     st.sidebar.title('AIMS Test UI-01')
     st.sidebar.header('ログイン')
     st.sidebar.text_input('アカウント')
